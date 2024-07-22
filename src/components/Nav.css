@@ -1,26 +1,41 @@
 nav {
-  align-items: center;;
+  align-items: center;
   display: flex;
   border: 1px solid gray;
+  justify-content: space-between;
+  margin: 20px auto 25px auto;
   width: 90%;
-  margin: 0 auto;
 }
 .logo {
-  border: 1px solid gray;
+  align-content: center;
+  border: 3px solid rgb(191, 225, 255);
+  font-size: 1.9em;
   height: 70px;
   text-align: center;
   width: 80px;
 }
 .menu{
+  align-items: center;
+  justify-content: center;
   display: flex;
   list-style: none;
+  padding: none;
 }
-.menu__item {
+nav .menu__item {
   text-align: center;
+  align-content: center;
   background-color: black;
   border: 1px white;
+  border-radius: 5px;
   color: white;
   height: 30px;
+  justify-content: center;
   margin: 0 15px;
   width: 110px;
+}
+nav .menu__item:hover{
+  background-color: rgb(48, 45, 45);
+  color: yellowgreen;
+  cursor: pointer;
+  font-weight: 600;
 }

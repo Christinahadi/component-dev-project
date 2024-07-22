@@ -1,0 +1,21 @@
+.AdContainer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: aqua;
+  min-height: 427px;
+  height: 450px;
+  margin: 10px 5px;;
+  min-width: 352px;
+  width: 80%;
+}
+.image-container {
+  text-align: center;
+  width: 70%;
+}
+.adContainter__img {
+  height: 130PX;
+  margin: 3px 8px;
+  /* width: 110px; */
+}
